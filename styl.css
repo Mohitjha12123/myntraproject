@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+header {
+    display: flex;
+    /* background-color: aqua; */
+    height: 4.5rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b6b1b1;
+}
+
+.myntra-logo {
+    height: 46px;
+    /* width: 53px; */
+
+}
+
+.logo-container {
+    margin-left: 4%;
+}
+
+.action-bar {
+    margin-right: 4%;
+}
+
+.nav-bar {
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+
+}
+
+.nav-bar a {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.nav-bar a sup {
+    color: red;
+    font-size: 9px;
+}
+
+.nav-bar a:hover {
+    color: palevioletred;
+    border: 1px solid darkmagenta;
+}
+
+.search-bar {
+
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color: #f5f5f6;
+    border-radius: 4px 0 0 4px;
+}
+
+.sreach-input {
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    border: none;
+    padding: 0 4px;
+    height: 40px;
+    border-radius: 0 4px 4px 0;
+
+}
+
+
+input:focus {
+    outline: none;
+}
+
+.action-bar {
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+
+.action-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.actin-name {
+    font-size: 9px;
+}
+
+.banner-container {
+    margin: 40px 0;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.catagary-heading {
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.catagry-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.sale-item {
+    width: 250px;
+
+}
+
+.footer-container {
+    padding: 30px 0 40px 0;
+    background: #fafbfc;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column h3 {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.footer-column a {
+    color: #3e4152;
+    text-decoration: none;
+    margin: 10px;
+
+}
